@@ -16,6 +16,7 @@ from models import create_model
 parser = argparse.ArgumentParser()
 parser.add_argument('-opt', type=str, required=True, help='Path to options JSON file.')
 opt = option.parse(parser.parse_args().opt, is_train=False)
+print(opt['path'])
 util.mkdirs((path for key, path in opt['path'].items() if not key == 'pretrain_model_G'))
 opt = option.dict_to_nonedict(opt)
 
