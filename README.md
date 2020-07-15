@@ -1,9 +1,9 @@
 # Modification
-1. steps to run inference on 4k images on 1 V100 : 
-      a. cd code
-      b. vi test4k.sh
-      c. edit the image path there and give the input image path
-      d. source test4k.sh
+1. steps to run inference on 4k images on 1 V100 : <br>
+      a. cd code <br>
+      b. vi test4k.sh <br>
+      c. edit the image path there and give the input image path <br>
+      d. source test4k.sh <br>
 -----------------------------------------------------
 # SPSR
 
