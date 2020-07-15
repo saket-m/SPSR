@@ -1,3 +1,10 @@
+# Modification
+1. steps to run inference on 4k images on 1 V100 : 
+      a. cd code
+      b. vi test4k.sh
+      c. edit the image path there and give the input image path
+      d. source test4k.sh
+-----------------------------------------------------
 # SPSR
 
 PyTorch implementation of Structure-Preserving Super Resolution with Gradient Guidance (CVPR 2020) \[[arXiv](https://arxiv.org/abs/2003.13081)\]\[[CVF](http://openaccess.thecvf.com/content_CVPR_2020/html/Ma_Structure-Preserving_Super_Resolution_With_Gradient_Guidance_CVPR_2020_paper.html)\]
